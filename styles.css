@@ -6,15 +6,10 @@ body {
   margin: 0 auto;
   max-width: 50em;
   background-color: white;
-  font-family:"Arial";
-  line-height: 1.5;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
   padding: 4em 1em;
   color: #566b78;
 }
-/* body {
-  margin: 0 auto;
-} */
-
 nav {
   display: flex;
   flex-wrap: wrap;
@@ -56,7 +51,7 @@ h1 {
 }
 header {
   background-color: #263d36;
-  background-image: url("header.jpg");
+  /* background-image: url("./background.webp"); */
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -86,7 +81,7 @@ header a {
   text-transform: uppercase;
   text-decoration: none;
   transition: none 200ms ease-out;
-  transition-property: color, background;
+  transition-property: color;
 }
 
 header a:hover {
@@ -118,5 +113,6 @@ pre {
 }
 a {
   color: #e81c4f;
+  cursor: pointer;
 }
 
